@@ -20,7 +20,7 @@ Se utilizará una base de datos de 14 pacientes de los que se obtuvieron, a part
 
 Se obtuvieron un total de $9$ series de tiempo por sujeto, resultando en un total de $126$ series teniendo en cuenta los $14$ participantes, $7$ de ellos hombres (M) y $7$ mujeres (F). Para cada persona, se realizó una gráfica por altitud de las tres series de tiempo asociadas al sueño y la vigilia, donde se muestra la longitud temporal de los intervalos $RR$ en función del número de latidos, con una linea horizontal que representa el promedio temporal de las series de tiempo asociadas a cada estado; las figuras se pueden consultar en la carpeta de 'figuras/series'.
 
-De todas las series de tiempo se obtuvo un promedio $\mu$ y desviación estándar $\sigma$ como medidas para cuantificar cambios globales en la frecuencia cardiaca y su amplitud, tanto en el sueño como en la vigilia. los resultados del promedio de estas medidas dentro de la población, para cada altitud y estado se muestra en la figura \ref{fig:promedios} para $\mu$, y en \ref{fig:variaciones} para $\sigma$.
+De todas las series de tiempo se obtuvo un promedio $\mu$ y desviación estándar $\sigma$ como medidas para cuantificar cambios globales en la frecuencia cardiaca y su amplitud, tanto en el sueño como en la vigilia. los resultados del promedio de estas medidas dentro de la población, para cada altitud y estado se muestra en la **figura 1** para $\mu$, y en la **figura 2** para $\sigma$.
 
 ![image](https://github.com/DiegoHerediaF/Fractal-Analysis-of-Cardiac-Time-Series-in-Awake-and-Sleep-States/blob/1b915575f7ced2f3dbd7c8d9eadd121a690ca513/figuras/series/promedios_intervalos_RR.png)
 
@@ -30,7 +30,24 @@ De todas las series de tiempo se obtuvo un promedio $\mu$ y desviación estánda
 
 **Figure 2.** Desviacion estandar promedio de los intervalos RR extraidos de las series de tiempo cardiacas.
 
+## Relative Dispersion
 
+Para el calculo de la dispersión relativa, se sigue la metodología de dividir las series en intervalos iguales, calculando la desviación estándar y el promedio de los datos de acuerdo a la partición dada por el número de agregación $n$. Las curvas de dispersión relativa se ven afectadas naturalmente por la longitud de los datos que se consideran, pues al aumentar el número de agregación, las particiones con las que se cuenta disminuyen, y llega un punto donde la curva pierde su comportamiento regular a causa del número reducido de muestras que se pueden extraer de las series.
 
+### Experimental Time Series
+
+Para cada persona, se realizó una gráfica por altitud de las tres series de tiempo asociadas al sueño y la vigilia, donde se muestra, en escala log-log, la curva de dispersión relativa, de la cual se extrae la dimensión fractal y el exponente de Hurst; las figuras se pueden consultar en la carpeta de 'figuras/dispersion_relativa'. El promedio y desviaciones estándar del exponente de Hurst dentro de la población, para cada altitud y estado se muestra en la **figura 3**.
+
+![image](https://github.com/DiegoHerediaF/Fractal-Analysis-of-Cardiac-Time-Series-in-Awake-and-Sleep-States/blob/a96d97b0eda71c559e32ab0c0477deb7c41e721a/figuras/hurst/hurst_RD.png)
+
+**Figure 3.** Exponentes de Hurst promedio de las series de tiempo experimentales.
+
+### Randomized Time Series (Surrogate Data)
+
+Para cada persona, se realizó una gráfica por altitud de las tres series de tiempo asociadas al sueño y la vigilia aleatorizadas, donde se muestra, en escala log-log, la curva de dispersión relativa, de la cual se extrae la dimensión fractal y el exponente de Hurst; las figuras se pueden consultar en la carpeta de 'figuras/surrogate_data'. El promedio y desviaciones estándar del exponente de Hurst dentro de los datos aleatorizados, para cada altitud y estado se muestra en la figura \ref{fig:randomhursts}.
+
+![image](https://github.com/DiegoHerediaF/Fractal-Analysis-of-Cardiac-Time-Series-in-Awake-and-Sleep-States/blob/a96d97b0eda71c559e32ab0c0477deb7c41e721a/figuras/hurst/surrogate_hurst_RD.png)
+
+**Figure 4.** Exponentes de Hurst promedio de las series de tiempo aleatorizadas.
 
 ## Conclusions
