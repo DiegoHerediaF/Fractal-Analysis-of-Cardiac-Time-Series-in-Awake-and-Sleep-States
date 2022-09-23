@@ -14,7 +14,7 @@ En este trabajo se busca utilizar el exponente de Hurst y la dimensión Fractal,
 
 ## Data 
 
-Se utilizará una base de datos de 14 pacientes de los que se obtuvieron, a partir de ECGs, series de tiempo cardiacas $RR$ para estados de sueño y vigilia en tres locaciones diferentes: a $0m$ (A), $2600m$ (B) y $4000m$ (C) sobre el nivel del mar (snm). Por cada sujeto y altitud se tienen tres series con una duración aproximada de $5min$ ($\approx 200$ datos): pre-siesta (PRE), sueño-N2 (N2) y post-siesta (POS). Estos datos fueron proporcionados por el doctor [$\textit{Alain Riveros Rivera}$](riveros-a@javeriana.edu.co), docente e investigador del departamento de ciencias fisiológicas, en la facultad de medicina de la pontificia universidad Javeriana.
+Se utilizará una base de datos de 14 pacientes de los que se obtuvieron, a partir de ECGs, series de tiempo cardiacas $RR$ para estados de sueño y vigilia en tres locaciones diferentes: a $0m$ (A), $2600m$ (B) y $4000m$ (C) sobre el nivel del mar (snm). Por cada sujeto y altitud se tienen tres series con una duración aproximada de $5min$ (y una media de $200$ datos): pre-siesta (PRE), sueño-N2 (N2) y post-siesta (POS). Estos datos fueron proporcionados por el doctor [Alain Riveros Rivera](mailto:riveros-a@javeriana.edu.co), docente e investigador del departamento de ciencias fisiológicas, en la facultad de medicina de la pontificia universidad Javeriana.
 
 ## Methods
 
