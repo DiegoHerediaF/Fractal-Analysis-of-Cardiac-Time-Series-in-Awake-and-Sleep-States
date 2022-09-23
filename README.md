@@ -51,3 +51,15 @@ Para cada persona, se realizó una gráfica por altitud de las tres series de ti
 **Figure 4.** Exponentes de Hurst promedio de las series de tiempo aleatorizadas.
 
 ## Conclusions
+
+- El sueño-N2 y la post-siesta se caracterizaron por ser los estados con menor y mayor frecuencia cardiaca respectivamente.
+
+- Las series de tiempo, tanto para los estados de vigilia, así como para el sueño-N2 corresponden a un proceso aleatorio fractal de carácter no lineal. 
+
+- De acuerdo a los exponentes de Hurst y la dimensión fractal calculadas, el estado de Sueño-N2 se caracteriza por tener las series de tiempo con mayor variabilidad de la frecuencia cardiaca.
+
+- La frecuencia cardiaca parece aumentar conforme la altitud aumenta, conservando el orden sueño-N2, pre-siesta y post-siesta; sin embargo, es necesario profundizar en la relación e influencia de la altitud con la frecuencia cardiaca.
+
+- Según los exponentes de Hurst y la dimensión fractal calculadas, el estado de Pre-Siesta se caracteriza por tener, en dos de las tres altitudes, excepto para $4000m$ snm, la menor variabilidad de la frecuencia cardiaca.
+
+- La variabilidad de la frecuencia cardiaca, para una misma población de sujetos, disminuye para los estados de sueño y vigilia conforme la altitud aumenta.
